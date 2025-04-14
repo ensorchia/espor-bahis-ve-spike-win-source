@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chiawin.gg - E-Spor Bahis Platformu</title>
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-text">chiawin</span><span class="logo-gg">.gg</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="valorant.html">Valorant</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lol.html">League of Legends</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tft.html">TFT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hesap-al.html">Spike Win Hesabı Al</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hesap-sat.html">Spike Win Hesabı Sat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="turnuvalar.html">Turnuvalar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="canli-bahis.html">Canlı Bahis</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="giris.html">Giriş Yap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kayit.html">Kayıt Ol</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profil.html"><i class="fas fa-user"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="bakiye.html">Bakiye: 0 CC</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <h1>E-Spor Bahislerinde Yeni Dönem</h1>
+            <p>Spike Win hesapları ile Chia Coin kazanın, favori e-spor maçlarınıza bahis yapın!</p>
+            <div class="hero-buttons">
+                <a href="kayit.html" class="btn btn-primary btn-lg">Hemen Başla</a>
+                <a href="#nasil-calisir" class="btn btn-outline-light btn-lg">Nasıl Çalışır?</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="section-header">
+            <h2>Popüler Maçlar</h2>
+            <a href="tum-maclar.html" class="btn btn-outline-primary">Tüm Maçları Gör</a>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="game-card">
+                    <div class="game-header">
+                        <h3>Valorant</h3>
+                        <span class="live-badge">CANLI</span>
+                    </div>
+                    <div class="match-card">
+                        <div class="teams">
+                            <div class="team">
+                              
+                                <span>FNC</span>
+                            </div>
+                            <span class="vs">VS</span>
+                            <div class="team">
+                             
+                                <span>NaVi</span>
+                            </div>
+                        </div>
+                        <div class="match-info">
+                            <span class="tournament">VCT 2023</span>
+                            <span class="map">Harita: Haven</span>
+                            <span class="score">12 - 10</span>
+                        </div>
+                        <div class="odds">
+                            <button class="btn-bet">2.10</button>
+                            <button class="btn-bet">1.85</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="game-card">
+                    <div class="game-header">
+                        <h3>League of Legends</h3>
+                        <span class="upcoming-badge">30 DK SONRA</span>
+                    </div>
+                    <div class="match-card">
+                        <div class="teams">
+                            <div class="team">
+                              
+                                <span>T1</span>
+                            </div>
+                            <span class="vs">VS</span>
+                            <div class="team">
+                               
+                                <span>DRX</span>
+                            </div>
+                        </div>
+                        <div class="match-info">
+                            <span class="tournament">LCK Summer 2023</span>
+                            <span class="time">14:00</span>
+                        </div>
+                        <div class="odds">
+                            <button class="btn-bet">1.65</button>
+                            <button class="btn-bet">2.25</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="game-card">
+                    <div class="game-header">
+                        <h3>TFT</h3>
+                        <span class="upcoming-badge">2 SAAT SONRA</span>
+                    </div>
+                    <div class="match-card">
+                        <div class="teams">
+                            <div class="team">
+                               
+                                <span>Milk</span>
+                            </div>
+                            <span class="vs">VS</span>
+                            <div class="team">
+                               
+                                <span>Setsuko</span>
+                            </div>
+                        </div>
+                        <div class="match-info">
+                            <span class="tournament">TFT Dünya Şampiyonası</span>
+                            <span class="format">Bo5</span>
+                        </div>
+                        <div class="odds">
+                            <button class="btn-bet">1.90</button>
+                            <button class="btn-bet">1.90</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="game-card">
+                    <div class="game-header">
+                        <h3>Spike Win Hesabı Al</h3>
+                        <span class="stock-badge">STOKTA 50+ HESAP</span>
+                    </div>
+                    <div class="match-card">
+                        <div class="account-types">
+                            <div class="account-type">
+                                <h5>Başlangıç Paketi</h5>
+                                <p>100 Spike Win + 10 CC Bonus</p>
+                                <span class="price">50 CC</span>
+                                <button class="btn-bet w-100">Satın Al</button>
+                            </div>
+                            <div class="account-type premium">
+                                <h5>Premium Paket</h5>
+                                <p>500 Spike Win + 100 CC Bonus</p>
+                                <span class="price">200 CC</span>
+                                <button class="btn-bet w-100">Satın Al</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="game-card">
+                    <div class="game-header">
+                        <h3>Spike Win Hesabı Sat</h3>
+                        <span class="bonus-badge">%10 BONUS</span>
+                    </div>
+                    <div class="match-card">
+                        <div class="sell-info">
+                            <p>Hesaplarınızı hemen satın ve anında Chia Coin kazanın!</p>
+                            <ul>
+                                <li>Anında Ödeme</li>
+                                <li>7/24 Destek</li>
+                                <li>Güvenli İşlem</li>
+                            </ul>
+                            <button class="btn-bet w-100">Hesap Sat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="nasil-calisir" class="container mt-5">
+        <h2 class="text-center mb-4">Nasıl Çalışır?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="how-it-works-card">
+                    <div class="step-number">1</div>
+                    <h4>Hesap Al veya Sat</h4>
+                    <p>Spike Win hesaplarımızı alın veya satın. Kazandığınız Chia Coin'ler ile bahis oynayabilirsiniz.</p>
+                    <a href="hesap-al.html" class="btn btn-outline-light">Detaylı Bilgi</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="how-it-works-card">
+                    <div class="step-number">2</div>
+                    <h4>Chia Coin Kazan</h4>
+                    <p>Hesapları tekrardan bize satarak Chia Coin kazanın. Ne kadar çok Spike Win o kadar çok bahis şansı!</p>
+                    <a href="chia-coin.html" class="btn btn-outline-light">CC Hakkında</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="how-it-works-card">
+                    <div class="step-number">3</div>
+                    <h4>Bahis Yap</h4>
+                    <p>Kazandığınız Chia Coin'ler ile favori e-spor maçlarınıza bahis yapın ve daha fazla kazanın!</p>
+                    <a href="bahis.html" class="btn btn-outline-light">Bahis Rehberi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Hakkımızda</h5>
+                    <ul>
+                        <li><a href="hakkimizda.html">Biz Kimiz?</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Hesap İşlemleri</h5>
+                    <ul>
+                        <li><a href="hesap-al.html">Hesap Al</a></li>
+                        <li><a href="hesap-sat.html">Hesap Sat</a></li>
+                        <li><a href="hesap-gecmisi.html">İşlem Geçmişi</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Bahis</h5>
+                    <ul>
+                        <li><a href="canli-bahis.html">Canlı Bahis</a></li>
+                        <li><a href="kuponlarim.html">Kuponlarım</a></li>
+                        <li><a href="istatistikler.html">İstatistikler</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Sosyal Medya</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 chiawin.gg - Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .hero-section {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 100px 0;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .hero-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-buttons {
+            margin-top: 30px;
+        }
+
+        .hero-buttons .btn {
+            margin: 0 10px;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .game-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .game-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .live-badge {
+            background: #ff4444;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .upcoming-badge {
+            background: #4444ff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .match-card {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .teams {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .team {
+            text-align: center;
+        }
+
+        .team img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        .match-info {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .match-info span {
+            margin: 0 10px;
+        }
+
+        .odds {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .btn-bet {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            border: none;
+            padding: 8px 20px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-bet:hover {
+            transform: scale(1.05);
+        }
+
+        .account-types {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .account-type {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .account-type.premium {
+            background: linear-gradient(45deg, #ff6b6b33, #ff8e8e33);
+        }
+
+        .price {
+            display: block;
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        .how-it-works-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .step-number {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 50px 0 20px;
+            margin-top: 100px;
+        }
+
+        footer h5 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer ul li a:hover {
+            color: #ff6b6b;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 24px;
+            margin-right: 15px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #ff6b6b;
+        }
+
+        .footer-bottom {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.3) !important;
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-brand {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            padding: 8px 15px;
+            border-radius: 10px;
+            text-transform: lowercase;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .logo-text {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .logo-gg {
+            background: linear-gradient(45deg, #ff8e8e, #ffb4b4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.05);
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        }
+
+        .navbar-brand::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+            width: 70%;
+            height: 2px;
+            background: linear-gradient(90deg, #ff6b6b, #ffb4b4);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-brand:hover::after {
+            transform: scaleX(1);
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+</body>
+</html>
